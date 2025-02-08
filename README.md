@@ -32,7 +32,7 @@ Before you begin, ensure you have the following:
 1. Clone the repository:
    ```bash
    git clone <repository-url>
-   cd test-assessment
+   cd Aggregator-App
    ```
 
 2. Create a `.env` file in the root directory:
@@ -62,12 +62,12 @@ Before you begin, ensure you have the following:
      --build-arg VITE_GUARDIAN_API_KEY=your_guardian_api_key \
      --build-arg VITE_NEWS_API_KEY=your_news_api_key \
      --build-arg VITE_NYT_API_KEY=your_nyt_api_key \
-     -t test-assessment .
+     -t Aggregator-App .
    ```
 
 2. Run the container:
    ```bash
-   docker run -d -p 8080:80 test-assessment
+   docker run -d -p 8080:80 Aggregator-App
    ```
 
 3. Access the application at [http://localhost:8080](http://localhost:8080)
